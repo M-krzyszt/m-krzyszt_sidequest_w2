@@ -10,29 +10,29 @@ let blob3 = {
   // Visual properties
   r: 26, // Base radius
   points: 48, // Number of points used to draw the blob
-  wobble: 7, // Edge deformation amount
-  wobbleFreq: 0.9,
+  wobble: 2.5, // Edge deformation amount
+  wobbleFreq: 0.4,
 
   // Time values for breathing animation
   t: 0,
-  tSpeed: 0.01,
+  tSpeed: 0.004,
 
   // Physics: velocity
   vx: 0, // Horizontal velocity
   vy: 0, // Vertical velocity
 
   // Movement tuning
-  accel: 0.55, // Horizontal acceleration
-  maxRun: 4.0, // Maximum horizontal speed
-  gravity: 0.65, // Downward force
-  jumpV: -11.0, // Initial jump impulse
+  accel: 0.15, // Horizontal acceleration
+  maxRun: 1.2, // Maximum horizontal speed
+  gravity: 0.8, // Downward force
+  jumpV: -3.2, // Initial jump impulse
 
   // State
   onGround: false, // True when standing on a platform
 
   // Friction
   frictionAir: 0.995, // Light friction in air
-  frictionGround: 0.88, // Stronger friction on ground
+  frictionGround: 0.82, // Stronger friction on ground
 };
 
 // List of solid platforms the blob can stand on
@@ -154,7 +154,7 @@ function overlap(a, b) {
 
 // Draws the blob using Perlin noise for a soft, breathing effect
 function drawBlobCircle(b) {
-  fill(20, 120, 255);
+  fill(25, 40, 85);
   beginShape();
 
   for (let i = 0; i < b.points; i++) {
