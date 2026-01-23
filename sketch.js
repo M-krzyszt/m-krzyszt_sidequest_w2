@@ -10,12 +10,12 @@ let blob3 = {
   // Visual properties
   r: 26, // Base radius
   points: 48, // Number of points used to draw the blob
-  wobble: 5.0, // Edge deformation amount
-  wobbleFreq: 0.5,
+  wobble: 12.0, // Edge deformation amount
+  wobbleFreq: 0.3,
 
   // Time values for breathing animation
   t: 0,
-  tSpeed: 0.0025,
+  tSpeed: 0.002,
 
   // Physics: velocity
   vx: 0, // Horizontal velocity
