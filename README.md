@@ -1,39 +1,42 @@
 ## Project Title
 
-GBDA302 Week 2 Example 3: Platforms (AABB Collisions)
+GBDA302 Week 2
+
+Title: Sad
 
 ---
 
-## Authors
+## Authors/group members
 
-Karen Cochrane and David Han
+Mia
 
 ---
 
 ## Description
 
-Adds several rectangular platforms. The blob is drawn as a noisy circle but collides using a simple axis-aligned bounding box (AABB). X and Y are resolved separately to keep behaviour predictable and teachable.
+Made a sad blob.
 
 ---
 
-## Learning Goals
+## setup instructions
 
-Learning Goals:
-
-- Convert a circular sprite to an AABB for collision
-- Implement overlap test and push-out resolution
-- Manage grounded state only when landing on top faces
+move right left up and down to get onto platfroms
+(but the blob is sad and cant make it onto plafrom )
 
 ---
 
-## Assets
+## iteration notes
 
-N/A
+changed speed of blob to slow  
+chnaged color to blue of blob
+chnaged jump to very little
+changed wobble to slow and little
+chnaged background to dark blue
 
 ---
 
 ## GenAI
 
-The code was written by Dr. Karen Cochrane but she used GenAI to write the comments.
+No GenAI used
 
 ---
