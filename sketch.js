@@ -25,7 +25,7 @@ let blob3 = {
   accel: 0.15, // Horizontal acceleration
   maxRun: 1.2, // Maximum horizontal speed
   gravity: 0.9, // Downward force
-  jumpV: -1.5, // Initial jump impulse
+  jumpV: -2.4, // Initial jump impulse
 
   // State
   onGround: false, // True when standing on a platform
